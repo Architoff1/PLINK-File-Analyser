@@ -15,6 +15,7 @@ add_executable(plink_pca_tool
     src/main.cpp
     src/gui/MainWindow.cpp
     src/gui/MainWindow.h
+    src/plink/PlinkLoader.cpp
 )
 
 target_include_directories(plink_pca_tool PRIVATE src)
