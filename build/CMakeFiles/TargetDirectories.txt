@@ -1,0 +1,3 @@
+/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles/plink_pca_tool.dir
+/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles/edit_cache.dir
+/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles/rebuild_cache.dir
