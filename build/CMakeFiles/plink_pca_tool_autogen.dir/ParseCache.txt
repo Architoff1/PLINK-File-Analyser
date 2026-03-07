@@ -7,6 +7,7 @@
  mmc:Q_OBJECT
  mdp:/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/plink_pca_tool_autogen/moc_predefs.h
  mdp:/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/gui/MainWindow.h
+ mdp:/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/PlinkLoader.h
  mdp:/usr/include/alloca.h
  mdp:/usr/include/asm-generic/errno-base.h
  mdp:/usr/include/asm-generic/errno.h

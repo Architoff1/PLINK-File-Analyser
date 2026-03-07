@@ -1,5 +1,6 @@
 /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/build/plink_pca_tool_autogen/MXUWEOXILK/moc_MainWindow.cpp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.h \
   /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/build/plink_pca_tool_autogen/moc_predefs.h \
+  /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/plink/PlinkLoader.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

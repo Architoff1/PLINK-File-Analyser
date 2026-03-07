@@ -392,4 +392,5 @@ CMakeFiles/plink_pca_tool.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../plink/PlinkLoader.h
