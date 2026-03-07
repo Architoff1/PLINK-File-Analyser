@@ -1,13 +1,11 @@
 #include <QApplication>
-#include <QMainWindow>
+#include "gui/MainWindow.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    QMainWindow window;
-    window.setWindowTitle("PLINK PCA Analyzer");
-    window.resize(900, 600);
+    MainWindow window;
     window.show();
 
     return app.exec();

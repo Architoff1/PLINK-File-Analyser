@@ -129,6 +129,80 @@ plink_pca_tool/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/build
 .PHONY : plink_pca_tool/fast
 
+#=============================================================================
+# Target rules for targets named plink_pca_tool_autogen_timestamp_deps
+
+# Build rule for target.
+plink_pca_tool_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plink_pca_tool_autogen_timestamp_deps
+.PHONY : plink_pca_tool_autogen_timestamp_deps
+
+# fast build rule for target.
+plink_pca_tool_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool_autogen_timestamp_deps.dir/build.make CMakeFiles/plink_pca_tool_autogen_timestamp_deps.dir/build
+.PHONY : plink_pca_tool_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named plink_pca_tool_autogen
+
+# Build rule for target.
+plink_pca_tool_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plink_pca_tool_autogen
+.PHONY : plink_pca_tool_autogen
+
+# fast build rule for target.
+plink_pca_tool_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool_autogen.dir/build.make CMakeFiles/plink_pca_tool_autogen.dir/build
+.PHONY : plink_pca_tool_autogen/fast
+
+plink_pca_tool_autogen/mocs_compilation.o: plink_pca_tool_autogen/mocs_compilation.cpp.o
+.PHONY : plink_pca_tool_autogen/mocs_compilation.o
+
+# target to build an object file
+plink_pca_tool_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o
+.PHONY : plink_pca_tool_autogen/mocs_compilation.cpp.o
+
+plink_pca_tool_autogen/mocs_compilation.i: plink_pca_tool_autogen/mocs_compilation.cpp.i
+.PHONY : plink_pca_tool_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+plink_pca_tool_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.i
+.PHONY : plink_pca_tool_autogen/mocs_compilation.cpp.i
+
+plink_pca_tool_autogen/mocs_compilation.s: plink_pca_tool_autogen/mocs_compilation.cpp.s
+.PHONY : plink_pca_tool_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+plink_pca_tool_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.s
+.PHONY : plink_pca_tool_autogen/mocs_compilation.cpp.s
+
+src/gui/MainWindow.o: src/gui/MainWindow.cpp.o
+.PHONY : src/gui/MainWindow.o
+
+# target to build an object file
+src/gui/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o
+.PHONY : src/gui/MainWindow.cpp.o
+
+src/gui/MainWindow.i: src/gui/MainWindow.cpp.i
+.PHONY : src/gui/MainWindow.i
+
+# target to preprocess a source file
+src/gui/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.i
+.PHONY : src/gui/MainWindow.cpp.i
+
+src/gui/MainWindow.s: src/gui/MainWindow.cpp.s
+.PHONY : src/gui/MainWindow.s
+
+# target to generate assembly for a file
+src/gui/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.s
+.PHONY : src/gui/MainWindow.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -161,7 +235,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... plink_pca_tool_autogen"
+	@echo "... plink_pca_tool_autogen_timestamp_deps"
 	@echo "... plink_pca_tool"
+	@echo "... plink_pca_tool_autogen/mocs_compilation.o"
+	@echo "... plink_pca_tool_autogen/mocs_compilation.i"
+	@echo "... plink_pca_tool_autogen/mocs_compilation.s"
+	@echo "... src/gui/MainWindow.o"
+	@echo "... src/gui/MainWindow.i"
+	@echo "... src/gui/MainWindow.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

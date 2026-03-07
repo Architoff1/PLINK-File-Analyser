@@ -9,9 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "plink_pca_tool_autogen/timestamp" "custom" "plink_pca_tool_autogen/deps"
-  "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/plink_pca_tool_autogen/mocs_compilation.cpp" "CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o.d"
-  "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/gui/MainWindow.cpp" "CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o.d"
-  "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/main.cpp" "CMakeFiles/plink_pca_tool.dir/src/main.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

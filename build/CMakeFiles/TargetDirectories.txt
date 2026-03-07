@@ -1,3 +1,5 @@
 /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles/plink_pca_tool.dir
 /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles/edit_cache.dir
 /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles/rebuild_cache.dir
+/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles/plink_pca_tool_autogen_timestamp_deps.dir
+/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles/plink_pca_tool_autogen.dir
