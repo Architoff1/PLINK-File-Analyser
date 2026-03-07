@@ -179,6 +179,30 @@ plink_pca_tool_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.s
 .PHONY : plink_pca_tool_autogen/mocs_compilation.cpp.s
 
+src/genome/GenomeDetector.o: src/genome/GenomeDetector.cpp.o
+.PHONY : src/genome/GenomeDetector.o
+
+# target to build an object file
+src/genome/GenomeDetector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o
+.PHONY : src/genome/GenomeDetector.cpp.o
+
+src/genome/GenomeDetector.i: src/genome/GenomeDetector.cpp.i
+.PHONY : src/genome/GenomeDetector.i
+
+# target to preprocess a source file
+src/genome/GenomeDetector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.i
+.PHONY : src/genome/GenomeDetector.cpp.i
+
+src/genome/GenomeDetector.s: src/genome/GenomeDetector.cpp.s
+.PHONY : src/genome/GenomeDetector.s
+
+# target to generate assembly for a file
+src/genome/GenomeDetector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.s
+.PHONY : src/genome/GenomeDetector.cpp.s
+
 src/gui/MainWindow.o: src/gui/MainWindow.cpp.o
 .PHONY : src/gui/MainWindow.o
 
@@ -265,6 +289,9 @@ help:
 	@echo "... plink_pca_tool_autogen/mocs_compilation.o"
 	@echo "... plink_pca_tool_autogen/mocs_compilation.i"
 	@echo "... plink_pca_tool_autogen/mocs_compilation.s"
+	@echo "... src/genome/GenomeDetector.o"
+	@echo "... src/genome/GenomeDetector.i"
+	@echo "... src/genome/GenomeDetector.s"
 	@echo "... src/gui/MainWindow.o"
 	@echo "... src/gui/MainWindow.i"
 	@echo "... src/gui/MainWindow.s"

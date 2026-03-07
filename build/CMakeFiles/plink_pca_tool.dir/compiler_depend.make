@@ -6,6 +6,8 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
   plink_pca_tool_autogen/moc_predefs.h \
+  /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/genome/GenomeDetector.cpp \
+  /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/genome/GenomeDetector.h \
   /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.cpp \
   /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.h \
   /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/main.cpp \
@@ -101,10 +103,12 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
   /usr/include/c++/13/bits/stl_list.h \
   /usr/include/c++/13/bits/stl_map.h \
   /usr/include/c++/13/bits/stl_multimap.h \
+  /usr/include/c++/13/bits/stl_multiset.h \
   /usr/include/c++/13/bits/stl_numeric.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
+  /usr/include/c++/13/bits/stl_set.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -162,6 +166,7 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13/pstl/glue_memory_defs.h \
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
+  /usr/include/c++/13/set \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
@@ -295,6 +300,7 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -327,10 +333,12 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlogging.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
@@ -348,6 +356,7 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qprocessordetection.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
@@ -401,10 +410,26 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFrame \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
@@ -663,8 +688,6 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake:
-
 /usr/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
 
 /usr/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake:
@@ -739,17 +762,27 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
+/usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:
 
-/usr/include/c++/13/bits/stl_multimap.h:
+/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
+/usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow:
+/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake:
+
+/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:
+
+/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:
+
+/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:
+
+/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:
+
+/usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -809,8 +842,6 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h:
 
-/usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake:
-
 /usr/include/pthread.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -826,6 +857,8 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 /usr/include/c++/13/bits/allocator.h:
 
 /usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake:
 
@@ -851,6 +884,12 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/include/c++/13/string_view:
 
+/usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake:
+
+/usr/include/c++/13/map:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h:
+
 /usr/include/features.h:
 
 /usr/include/c++/13/string:
@@ -867,6 +906,14 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
+/usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake:
+
+/usr/include/c++/13/set:
+
+/usr/include/c++/13/bits/shared_ptr_atomic.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h:
+
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
@@ -876,6 +923,10 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 /usr/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
 
 /usr/include/c++/13/exception:
+
+/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qnumeric.h:
 
 /usr/include/c++/13/ext/alloc_traits.h:
 
@@ -903,8 +954,6 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
 
-/usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake:
-
 /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake:
 
 /usr/include/c++/13/ext/numeric_traits.h:
@@ -912,10 +961,6 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 /usr/include/c++/13/bits/stl_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qnumeric.h:
-
-/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake:
 
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
@@ -935,11 +980,21 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h:
 
+/usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
+
 /usr/include/c++/13/cwchar:
 
 /usr/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/c++/13/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/13/concepts:
+
+/usr/include/c++/13/compare:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
@@ -950,6 +1005,14 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 /usr/include/c++/13/optional:
 
 /usr/include/c++/13/bits/vector.tcc:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow:
 
 /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c:
 
@@ -1003,13 +1066,15 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
-/usr/include/c++/13/array:
+/home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/genome/GenomeDetector.cpp:
 
-/usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/include/c++/13/bits/hash_bytes.h:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
+
+/home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/genome/GenomeDetector.h:
 
 /usr/include/c++/13/bits/ranges_util.h:
 
@@ -1019,9 +1084,13 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
+/usr/include/c++/13/array:
+
+/usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
+
+/usr/include/c++/13/bits/hash_bytes.h:
 
 /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.h:
 
@@ -1035,7 +1104,13 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/include/c++/13/bits/functional_hash.h:
 
+/usr/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake:
+
+plink_pca_tool_autogen/moc_predefs.h:
+
 /usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h:
 
 CMakeFiles/3.28.3/CMakeSystem.cmake:
 
@@ -1047,15 +1122,7 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/bits/basic_ios.h:
 
-/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:
-
 /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/main.cpp:
-
-/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake:
 
@@ -1065,9 +1132,9 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/backward/auto_ptr.h:
 
-/usr/include/assert.h:
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/assert.h:
 
 /usr/include/c++/13/bits/char_traits.h:
 
@@ -1091,11 +1158,19 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
 
+/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
+
 /usr/include/c++/13/bits/iterator_concepts.h:
 
-/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:
-
 /usr/include/c++/13/bits/stl_tree.h:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/13/algorithm:
 
@@ -1109,6 +1184,8 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h:
+
 /usr/include/c++/13/bits/stream_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
@@ -1119,7 +1196,33 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h:
 
+/usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/c++/13/bit:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
+
 /usr/include/c++/13/bits/ranges_cmp.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/x86_64-linux-gnu/sys/syscall.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/c++/13/backward/binders.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
 /usr/include/c++/13/debug/assertions.h:
 
@@ -1136,26 +1239,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/c++/13/bits/stringfwd.h:
 
 /usr/include/c++/13/cerrno:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/c++/13/backward/binders.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
-
-/usr/include/c++/13/bits/locale_facets.h:
-
-/usr/include/c++/13/bit:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
 
 /usr/include/stdio.h:
 
@@ -1187,6 +1270,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h:
+
 /usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h:
@@ -1195,7 +1280,15 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/bits/string_view.tcc:
 
+/usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h:
+
 /usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/include/c++/13/bits/stl_set.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
@@ -1211,6 +1304,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h:
+
 /usr/include/c++/13/bits/refwrap.h:
 
 /usr/include/c++/13/bits/locale_facets.tcc:
@@ -1223,10 +1318,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/bits/shared_ptr.h:
 
-/usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h:
-
 /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake:
 
 /usr/include/limits.h:
@@ -1234,6 +1325,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/c++/13/cstdlib:
 
 /usr/include/c++/13/cstdint:
+
+/usr/include/c++/13/bits/stl_multiset.h:
 
 /usr/include/c++/13/bits/postypes.h:
 
@@ -1277,8 +1370,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/c++/13/compare:
-
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
 /usr/include/c++/13/bits/new_allocator.h:
@@ -1290,8 +1381,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/c++/13/bits/stl_map.h:
 
 /usr/include/c++/13/bits/stl_numeric.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/c++/13/bits/stl_relops.h:
 
@@ -1329,17 +1418,11 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/cctype:
 
-/usr/include/c++/13/stdexcept:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
-/usr/include/c++/13/clocale:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/usr/include/x86_64-linux-gnu/sys/syscall.h:
-
-/usr/include/c++/13/memory:
-
-/usr/include/c++/13/pstl/glue_numeric_defs.h:
-
-/usr/include/c++/13/concepts:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/c++/13/bits/nested_exception.h:
 
@@ -1392,8 +1475,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake:
 
@@ -1495,13 +1576,11 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h:
 
-/usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerinfo.h:
-
 /usr/include/c++/13/bits/basic_string.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h:
 
@@ -1517,13 +1596,11 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
-
-/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:
 
@@ -1532,10 +1609,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h:
-
-/usr/include/c++/13/bits/specfun.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qtcore-config.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h:
 
@@ -1560,6 +1633,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -1643,6 +1718,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/bits/concept_check.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
@@ -1655,6 +1732,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h:
 
 /usr/include/c++/13/tr1/modified_bessel_func.tcc:
@@ -1662,6 +1741,16 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFrame:
+
+/usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerinfo.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget:
 
 /usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
 
@@ -1671,6 +1760,18 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h:
 
+/usr/include/c++/13/memory:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h:
+
+/usr/include/c++/13/bits/specfun.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qtcore-config.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h:
 
 /usr/include/c++/13/bits/exception_defines.h:
@@ -1678,6 +1779,10 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
+
+/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake:
 
@@ -1710,6 +1815,10 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/c++/13/pstl/execution_defs.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
+
+/usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
@@ -1767,11 +1876,13 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
 
-/home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.cpp:
-
 /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake:
 
+/home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.cpp:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
 
@@ -1805,10 +1916,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
 
-plink_pca_tool_autogen/moc_predefs.h:
-
-/usr/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
@@ -1827,44 +1934,12 @@ plink_pca_tool_autogen/moc_predefs.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
-/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in:
-
-/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp:
-
-/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake:
-
-/usr/include/c++/13/map:
-
-/usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h:
-
-/usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in:
-
-/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:
+/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:
 
 /usr/include/c++/13/new:
 
 /usr/share/cmake-3.28/Modules/CMakeCInformation.cmake:
 
-/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:
+/usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in:
+
+/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp:

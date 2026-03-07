@@ -319,6 +319,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/genome/GenomeDetector.h",
+			"MU",
+			"6JV2YAWOGR/moc_GenomeDetector.cpp",
+			null
+		],
+		[
 			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/gui/MainWindow.h",
 			"MU",
 			"MXUWEOXILK/moc_MainWindow.cpp",
@@ -390,6 +396,11 @@
 	"SETTINGS_FILE" : "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles/plink_pca_tool_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/genome/GenomeDetector.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/gui/MainWindow.cpp",
 			"MU",

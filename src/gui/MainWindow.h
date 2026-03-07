@@ -1,6 +1,9 @@
 #pragma once
 
 #include <QMainWindow>
+#include <QFrame>
+#include <QTableWidget>
+
 #include "../plink/PlinkLoader.h"
 
 class QTextEdit;
@@ -19,14 +22,31 @@ private:
     void createWorkspace();
     void loadDataset();   // SLOT for menu action
 
+    // ---- Log Panel ----
     QTextEdit *logPanel;
 
+    // ---- Dataset Summary ----
     QLabel *datasetNameLabel;
     QLabel *sampleCountLabel;
     QLabel *snpCountLabel;
     QLabel *chromosomeLabel;
 
+    // ---- Reference Genome ----
     QComboBox *referenceGenomeDropdown;
 
+    // ---- Dataset Health ----
+    QFrame *healthSeparator;
+    QLabel *healthTitleLabel;
+    QLabel *missingChromosomesLabel;
+    QLabel *sexChromosomeLabel;
+    QLabel *mitochondrialLabel;
+    QLabel *assemblyConsistencyLabel;
+    QLabel *datasetTypeLabel;
+
+    // ---- Dataset Overview Table ----
+    QLabel *overviewTitleLabel;
+    QTableWidget *chromosomeTable;
+
+    // ---- Dataset Storage ----
     PlinkDataset dataset;
 };

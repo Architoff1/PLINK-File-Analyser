@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "plink_pca_tool_autogen"
   "CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o"
+  "CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o.d"
   "CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o"
   "CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o.d"
   "CMakeFiles/plink_pca_tool.dir/src/main.cpp.o"

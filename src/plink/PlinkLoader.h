@@ -1,7 +1,7 @@
 #pragma once
 
 #include <string>
-
+#include <set>
 struct PlinkDataset
 {
     std::string bedFile;
@@ -10,6 +10,7 @@ struct PlinkDataset
 
     int snpCount = 0;
     int sampleCount = 0;
+    std::set<std::string> chromosomes;
 };
 
 class PlinkLoader
