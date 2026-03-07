@@ -1,11 +1,11 @@
 #pragma once
 
 #include <QMainWindow>
-
 #include "../plink/PlinkLoader.h"
 
 class QTextEdit;
 class QLabel;
+class QComboBox;
 
 class MainWindow : public QMainWindow
 {
@@ -17,11 +17,16 @@ public:
 private:
     void createMenus();
     void createWorkspace();
-
     void loadDataset();   // SLOT for menu action
 
     QTextEdit *logPanel;
-    QLabel *datasetInfo;
+
+    QLabel *datasetNameLabel;
+    QLabel *sampleCountLabel;
+    QLabel *snpCountLabel;
+    QLabel *chromosomeLabel;
+
+    QComboBox *referenceGenomeDropdown;
 
     PlinkDataset dataset;
 };

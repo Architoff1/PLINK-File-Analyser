@@ -1,5 +1,7 @@
 #include "MainWindow.h"
 
+#include <QComboBox>
+#include <QFileInfo>
 #include <QMenuBar>
 #include <QStatusBar>
 #include <QVBoxLayout>
@@ -58,17 +60,36 @@ void MainWindow::createWorkspace()
     QWidget *central = new QWidget;
     QVBoxLayout *layout = new QVBoxLayout;
 
-    datasetInfo = new QLabel("No dataset loaded.");
-    datasetInfo->setStyleSheet("font-weight: bold;");
+    QLabel *title = new QLabel("Dataset Summary");
+    title->setStyleSheet("font-weight: bold; font-size: 16px;");
+
+    datasetNameLabel = new QLabel("Dataset: None");
+    sampleCountLabel = new QLabel("Samples: 0");
+    snpCountLabel = new QLabel("SNPs: 0");
+    chromosomeLabel = new QLabel("Chromosomes: Unknown");
+
+    QLabel *refLabel = new QLabel("Reference Genome:");
+
+    referenceGenomeDropdown = new QComboBox;
+    referenceGenomeDropdown->addItem("Unknown");
+    referenceGenomeDropdown->addItem("GRCh37 / hg19");
+    referenceGenomeDropdown->addItem("GRCh38 / hg38");
+    referenceGenomeDropdown->addItem("T2T-CHM13");
 
     logPanel = new QTextEdit;
     logPanel->setReadOnly(true);
 
-    layout->addWidget(datasetInfo);
+    layout->addWidget(title);
+    layout->addWidget(datasetNameLabel);
+    layout->addWidget(sampleCountLabel);
+    layout->addWidget(snpCountLabel);
+    layout->addWidget(chromosomeLabel);
+    layout->addWidget(refLabel);
+    layout->addWidget(referenceGenomeDropdown);
+    layout->addSpacing(20);
     layout->addWidget(logPanel);
 
     central->setLayout(layout);
-
     setCentralWidget(central);
 }
 
@@ -86,18 +107,40 @@ void MainWindow::loadDataset()
 
     if (!PlinkLoader::loadDataset(bedFile.toStdString(), dataset))
     {
-        QMessageBox::critical(this, "Error",
-                              "Could not find matching .bim or .fam files.");
+        QMessageBox::critical(
+            this,
+            "Error",
+            "Could not find matching .bim or .fam files."
+        );
         return;
     }
 
-    datasetInfo->setText(
-        QString("Dataset Loaded\nSamples: %1\nSNPs: %2")
-            .arg(dataset.sampleCount)
-            .arg(dataset.snpCount)
+    // ---- Update Dataset Summary Panel ----
+
+    QString datasetName = QFileInfo(bedFile).baseName();
+
+    datasetNameLabel->setText(
+        QString("Dataset: %1").arg(datasetName)
     );
 
+    sampleCountLabel->setText(
+        QString("Samples: %1").arg(dataset.sampleCount)
+    );
+
+    snpCountLabel->setText(
+        QString("SNPs: %1").arg(dataset.snpCount)
+    );
+
+    chromosomeLabel->setText("Chromosomes: Detecting...");
+
+    // ---- Reset genome dropdown ----
+
+    referenceGenomeDropdown->setCurrentIndex(0); // Unknown
+
+    // ---- Log Output ----
+
     logPanel->append("Dataset loaded successfully.");
+    logPanel->append(QString("Dataset: %1").arg(datasetName));
     logPanel->append(QString("Samples: %1").arg(dataset.sampleCount));
     logPanel->append(QString("SNPs: %1").arg(dataset.snpCount));
 }
