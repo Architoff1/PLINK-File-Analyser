@@ -227,6 +227,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/plink/PlinkLoader.o: src/plink/PlinkLoader.cpp.o
+.PHONY : src/plink/PlinkLoader.o
+
+# target to build an object file
+src/plink/PlinkLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.o
+.PHONY : src/plink/PlinkLoader.cpp.o
+
+src/plink/PlinkLoader.i: src/plink/PlinkLoader.cpp.i
+.PHONY : src/plink/PlinkLoader.i
+
+# target to preprocess a source file
+src/plink/PlinkLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.i
+.PHONY : src/plink/PlinkLoader.cpp.i
+
+src/plink/PlinkLoader.s: src/plink/PlinkLoader.cpp.s
+.PHONY : src/plink/PlinkLoader.s
+
+# target to generate assembly for a file
+src/plink/PlinkLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.s
+.PHONY : src/plink/PlinkLoader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -247,6 +271,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/plink/PlinkLoader.o"
+	@echo "... src/plink/PlinkLoader.i"
+	@echo "... src/plink/PlinkLoader.s"
 .PHONY : help
 
 

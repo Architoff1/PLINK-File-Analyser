@@ -66,9 +66,9 @@ include CMakeFiles/plink_pca_tool_autogen_timestamp_deps.dir/compiler_depend.mak
 # Include the progress variables for this target.
 include CMakeFiles/plink_pca_tool_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/plink_pca_tool_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/plink_pca_tool_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/plink_pca_tool_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
+CMakeFiles/plink_pca_tool_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 
 plink_pca_tool_autogen_timestamp_deps: CMakeFiles/plink_pca_tool_autogen_timestamp_deps
 plink_pca_tool_autogen_timestamp_deps: CMakeFiles/plink_pca_tool_autogen_timestamp_deps.dir/build.make

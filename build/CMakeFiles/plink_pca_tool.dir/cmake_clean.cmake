@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o.d"
   "CMakeFiles/plink_pca_tool.dir/src/main.cpp.o"
   "CMakeFiles/plink_pca_tool.dir/src/main.cpp.o.d"
+  "CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.o"
+  "CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.o.d"
   "plink_pca_tool"
   "plink_pca_tool.pdb"
   "plink_pca_tool_autogen/mocs_compilation.cpp"

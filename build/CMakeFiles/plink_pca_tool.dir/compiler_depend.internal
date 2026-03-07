@@ -10,6 +10,8 @@
  /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/gui/MainWindow.cpp
  /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/gui/MainWindow.h
  /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/main.cpp
+ /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/PlinkLoader.cpp
+ /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/PlinkLoader.h
  /usr/bin/cmake
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h

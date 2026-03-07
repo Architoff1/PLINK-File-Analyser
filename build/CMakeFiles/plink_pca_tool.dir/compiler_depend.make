@@ -9,6 +9,8 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
   /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.cpp \
   /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.h \
   /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/main.cpp \
+  /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/plink/PlinkLoader.cpp \
+  /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/plink/PlinkLoader.h \
   /usr/bin/cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -735,6 +737,8 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:
 
+/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -820,10 +824,6 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets-none.cmake:
 
 /usr/include/c++/13/bits/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/13/bits/nested_exception.h:
 
 /usr/include/stdc-predef.h:
 
@@ -941,16 +941,6 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/stdio.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
-
-/usr/include/c++/13/bits/mofunc_impl.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake:
-
 /usr/include/c++/13/bits/locale_classes.tcc:
 
 /usr/include/c++/13/bits/uniform_int_dist.h:
@@ -987,14 +977,6 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qsystemdetection.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/c++/13/bits/std_function.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
 /usr/include/c++/13/bits/c++0x_warning.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
@@ -1021,10 +1003,6 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
-/usr/include/assert.h:
-
-/usr/include/c++/13/backward/auto_ptr.h:
-
 /usr/include/c++/13/array:
 
 /usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
@@ -1042,6 +1020,8 @@ plink_pca_tool_autogen/timestamp: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ A
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
 
 /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.h:
 
@@ -1083,6 +1063,24 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
 
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/assert.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/c++/13/cstddef:
+
+/usr/include/c++/13/bits/stl_algo.h:
+
+/usr/include/c++/13/chrono:
+
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/stdint.h:
@@ -1106,8 +1104,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets-none.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
@@ -1160,6 +1156,16 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/c++/13/bit:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
+
+/usr/include/c++/13/bits/mofunc_impl.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake:
 
 /usr/include/c++/13/bits/move.h:
 
@@ -1221,17 +1227,23 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h:
 
+/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake:
+
+/usr/include/limits.h:
+
+/usr/include/c++/13/cstdlib:
+
+/usr/include/c++/13/cstdint:
+
 /usr/include/c++/13/bits/postypes.h:
+
+/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:
+
+/usr/include/c++/13/bits/uses_allocator.h:
 
 /usr/include/c++/13/bits/cxxabi_init_exception.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h:
-
-/usr/include/c++/13/cstddef:
-
-/usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/c++/13/chrono:
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
@@ -1317,14 +1329,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/cctype:
 
-/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake:
-
-/usr/include/limits.h:
-
-/usr/include/c++/13/cstdlib:
-
-/usr/include/c++/13/cstdint:
-
 /usr/include/c++/13/stdexcept:
 
 /usr/include/c++/13/clocale:
@@ -1336,6 +1340,12 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/c++/13/pstl/glue_numeric_defs.h:
 
 /usr/include/c++/13/concepts:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/13/bits/list.tcc:
 
@@ -1366,6 +1376,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake:
 
 /usr/include/c++/13/tr1/poly_hermite.tcc:
+
+/home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/plink/PlinkLoader.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -1400,8 +1412,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
-
-/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
 
@@ -1597,6 +1607,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qsysinfo.h:
 
+/home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/plink/PlinkLoader.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtaggedpointer.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtcoreexports.h:
@@ -1691,10 +1703,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake:
 
-/usr/include/c++/13/bits/uses_allocator.h:
-
-/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake:
@@ -1766,8 +1774,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 

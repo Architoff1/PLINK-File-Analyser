@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/plink_pca_tool_autogen/mocs_compilation.cpp" "CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o.d"
   "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/gui/MainWindow.cpp" "CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o.d"
   "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/main.cpp" "CMakeFiles/plink_pca_tool.dir/src/main.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/main.cpp.o.d"
+  "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/PlinkLoader.cpp" "CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
