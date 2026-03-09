@@ -132,10 +132,24 @@ CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/PlinkLoader.cpp" -o CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.s
 
+CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o: CMakeFiles/plink_pca_tool.dir/flags.make
+CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/plink/BedReader.cpp
+CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o: CMakeFiles/plink_pca_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o -MF CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o.d -o CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o -c "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/BedReader.cpp"
+
+CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/BedReader.cpp" > CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.i
+
+CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/BedReader.cpp" -o CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.s
+
 CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o: CMakeFiles/plink_pca_tool.dir/flags.make
 CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/genome/GenomeDetector.cpp
 CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o: CMakeFiles/plink_pca_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o -MF CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o.d -o CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o -c "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/genome/GenomeDetector.cpp"
 
 CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.i: cmake_force
@@ -146,13 +160,44 @@ CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/genome/GenomeDetector.cpp" -o CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.s
 
+CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o: CMakeFiles/plink_pca_tool.dir/flags.make
+CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/data/GenotypeBlock.cpp
+CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o: CMakeFiles/plink_pca_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o -MF CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o.d -o CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o -c "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/data/GenotypeBlock.cpp"
+
+CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/data/GenotypeBlock.cpp" > CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.i
+
+CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/data/GenotypeBlock.cpp" -o CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.s
+
+CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o: CMakeFiles/plink_pca_tool.dir/flags.make
+CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/qc/QCEngine.cpp
+CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o: CMakeFiles/plink_pca_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o -MF CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o.d -o CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o -c "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.cpp"
+
+CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.cpp" > CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.i
+
+CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.cpp" -o CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.s
+
 # Object files for target plink_pca_tool
 plink_pca_tool_OBJECTS = \
 "CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/plink_pca_tool.dir/src/main.cpp.o" \
 "CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o" \
 "CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.o" \
-"CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o"
+"CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o" \
+"CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o" \
+"CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o" \
+"CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o"
 
 # External object files for target plink_pca_tool
 plink_pca_tool_EXTERNAL_OBJECTS =
@@ -161,7 +206,10 @@ plink_pca_tool: CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compil
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/main.cpp.o
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.o
+plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o
+plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o
+plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/build.make
 plink_pca_tool: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 plink_pca_tool: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
@@ -169,7 +217,7 @@ plink_pca_tool: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 plink_pca_tool: /usr/lib/x86_64-linux-gnu/libGLX.so
 plink_pca_tool: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable plink_pca_tool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable plink_pca_tool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plink_pca_tool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,6 +5,8 @@
 #include <QTableWidget>
 
 #include "../plink/PlinkLoader.h"
+#include "../plink/BedReader.h"
+#include "../data/GenotypeBlock.h"
 
 class QTextEdit;
 class QLabel;
@@ -49,4 +51,8 @@ private:
 
     // ---- Dataset Storage ----
     PlinkDataset dataset;
+
+    // ---- Genotype Streaming ----
+    BedReader bedReader;
+    GenotypeBlock genotypeBlock;
 };

@@ -16,7 +16,10 @@ add_executable(plink_pca_tool
     src/gui/MainWindow.cpp
     src/gui/MainWindow.h
     src/plink/PlinkLoader.cpp
+    src/plink/BedReader.cpp
     src/genome/GenomeDetector.cpp
+    src/data/GenotypeBlock.cpp
+    src/qc/QCEngine.cpp
 )
 
 target_include_directories(plink_pca_tool PRIVATE src)

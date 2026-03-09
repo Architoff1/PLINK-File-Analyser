@@ -405,10 +405,15 @@ CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
  /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../plink/PlinkLoader.h \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
- /usr/include/c++/13/bits/stl_multiset.h /usr/include/c++/13/fstream \
+ /usr/include/c++/13/bits/stl_multiset.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../plink/BedReader.h \
+ /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/data/GenotypeBlock.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../data/GenotypeBlock.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../genome/GenomeDetector.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QFileInfo \
@@ -453,5 +458,4 @@ CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qfileinfo.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../genome/GenomeDetector.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h

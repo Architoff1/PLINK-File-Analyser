@@ -319,6 +319,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/data/GenotypeBlock.h",
+			"MU",
+			"SG3YC7EIDC/moc_GenotypeBlock.cpp",
+			null
+		],
+		[
 			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/genome/GenomeDetector.h",
 			"MU",
 			"6JV2YAWOGR/moc_GenomeDetector.cpp",
@@ -331,9 +337,21 @@
 			null
 		],
 		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/BedReader.h",
+			"MU",
+			"RUIZGJHJDP/moc_BedReader.cpp",
+			null
+		],
+		[
 			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/PlinkLoader.h",
 			"MU",
 			"RUIZGJHJDP/moc_PlinkLoader.cpp",
+			null
+		],
+		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.h",
+			"MU",
+			"JPKH5B2DX2/moc_QCEngine.cpp",
 			null
 		]
 	],
@@ -397,6 +415,11 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/data/GenotypeBlock.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/genome/GenomeDetector.cpp",
 			"MU",
 			null
@@ -412,7 +435,17 @@
 			null
 		],
 		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/BedReader.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/PlinkLoader.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.cpp",
 			"MU",
 			null
 		]

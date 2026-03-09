@@ -1,4 +1,8 @@
 #include "MainWindow.h"
+#include "../plink/PlinkLoader.h"
+#include "../genome/GenomeDetector.h"
+#include "../plink/BedReader.h"
+#include "../data/GenotypeBlock.h"
 
 #include <vector>
 #include <algorithm>
@@ -20,10 +24,6 @@
 
 #include <QFileDialog>
 #include <QMessageBox>
-
-#include "../plink/PlinkLoader.h"
-#include "../genome/GenomeDetector.h"
-
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -353,11 +353,32 @@ void MainWindow::loadDataset()
     }
 
     // ---- Logging ----
-    logPanel->clear();
 
+    logPanel->clear();
     logPanel->append("Dataset loaded successfully.");
     logPanel->append(QString("Dataset: %1").arg(datasetName));
     logPanel->append(QString("Samples: %1").arg(dataset.sampleCount));
     logPanel->append(QString("SNPs: %1").arg(dataset.snpCount));
     logPanel->append(QString("Genome build detected: %1").arg(detected));
+
+    // ---- BED decoding test ----
+
+    logPanel->append("Initializing BED reader...");
+
+    if (bedReader.open(bedFile.toStdString(), dataset.sampleCount, dataset.snpCount))
+    {
+        if (bedReader.readNextBlock(genotypeBlock))
+        {
+            logPanel->append("BED reader initialized.");
+            logPanel->append("First genotype block decoded successfully.");
+        }
+        else
+        {
+            logPanel->append("Failed to decode genotype block.");
+        }
+    }
+    else
+    {
+        logPanel->append("Failed to open BED file.");
+    }
 }

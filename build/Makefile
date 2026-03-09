@@ -179,6 +179,30 @@ plink_pca_tool_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.s
 .PHONY : plink_pca_tool_autogen/mocs_compilation.cpp.s
 
+src/data/GenotypeBlock.o: src/data/GenotypeBlock.cpp.o
+.PHONY : src/data/GenotypeBlock.o
+
+# target to build an object file
+src/data/GenotypeBlock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o
+.PHONY : src/data/GenotypeBlock.cpp.o
+
+src/data/GenotypeBlock.i: src/data/GenotypeBlock.cpp.i
+.PHONY : src/data/GenotypeBlock.i
+
+# target to preprocess a source file
+src/data/GenotypeBlock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.i
+.PHONY : src/data/GenotypeBlock.cpp.i
+
+src/data/GenotypeBlock.s: src/data/GenotypeBlock.cpp.s
+.PHONY : src/data/GenotypeBlock.s
+
+# target to generate assembly for a file
+src/data/GenotypeBlock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.s
+.PHONY : src/data/GenotypeBlock.cpp.s
+
 src/genome/GenomeDetector.o: src/genome/GenomeDetector.cpp.o
 .PHONY : src/genome/GenomeDetector.o
 
@@ -251,6 +275,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/plink/BedReader.o: src/plink/BedReader.cpp.o
+.PHONY : src/plink/BedReader.o
+
+# target to build an object file
+src/plink/BedReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o
+.PHONY : src/plink/BedReader.cpp.o
+
+src/plink/BedReader.i: src/plink/BedReader.cpp.i
+.PHONY : src/plink/BedReader.i
+
+# target to preprocess a source file
+src/plink/BedReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.i
+.PHONY : src/plink/BedReader.cpp.i
+
+src/plink/BedReader.s: src/plink/BedReader.cpp.s
+.PHONY : src/plink/BedReader.s
+
+# target to generate assembly for a file
+src/plink/BedReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.s
+.PHONY : src/plink/BedReader.cpp.s
+
 src/plink/PlinkLoader.o: src/plink/PlinkLoader.cpp.o
 .PHONY : src/plink/PlinkLoader.o
 
@@ -275,6 +323,30 @@ src/plink/PlinkLoader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.s
 .PHONY : src/plink/PlinkLoader.cpp.s
 
+src/qc/QCEngine.o: src/qc/QCEngine.cpp.o
+.PHONY : src/qc/QCEngine.o
+
+# target to build an object file
+src/qc/QCEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o
+.PHONY : src/qc/QCEngine.cpp.o
+
+src/qc/QCEngine.i: src/qc/QCEngine.cpp.i
+.PHONY : src/qc/QCEngine.i
+
+# target to preprocess a source file
+src/qc/QCEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.i
+.PHONY : src/qc/QCEngine.cpp.i
+
+src/qc/QCEngine.s: src/qc/QCEngine.cpp.s
+.PHONY : src/qc/QCEngine.s
+
+# target to generate assembly for a file
+src/qc/QCEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.s
+.PHONY : src/qc/QCEngine.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -289,6 +361,9 @@ help:
 	@echo "... plink_pca_tool_autogen/mocs_compilation.o"
 	@echo "... plink_pca_tool_autogen/mocs_compilation.i"
 	@echo "... plink_pca_tool_autogen/mocs_compilation.s"
+	@echo "... src/data/GenotypeBlock.o"
+	@echo "... src/data/GenotypeBlock.i"
+	@echo "... src/data/GenotypeBlock.s"
 	@echo "... src/genome/GenomeDetector.o"
 	@echo "... src/genome/GenomeDetector.i"
 	@echo "... src/genome/GenomeDetector.s"
@@ -298,9 +373,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/plink/BedReader.o"
+	@echo "... src/plink/BedReader.i"
+	@echo "... src/plink/BedReader.s"
 	@echo "... src/plink/PlinkLoader.o"
 	@echo "... src/plink/PlinkLoader.i"
 	@echo "... src/plink/PlinkLoader.s"
+	@echo "... src/qc/QCEngine.o"
+	@echo "... src/qc/QCEngine.i"
+	@echo "... src/qc/QCEngine.s"
 .PHONY : help
 
 
