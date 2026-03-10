@@ -188,6 +188,34 @@ CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.cpp" -o CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.s
 
+CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o: CMakeFiles/plink_pca_tool.dir/flags.make
+CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/qc/QCWorker.cpp
+CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o: CMakeFiles/plink_pca_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o -MF CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o.d -o CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o -c "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCWorker.cpp"
+
+CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCWorker.cpp" > CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.i
+
+CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCWorker.cpp" -o CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.s
+
+CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o: CMakeFiles/plink_pca_tool.dir/flags.make
+CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o: /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/qc/QCParallelEngine.cpp
+CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o: CMakeFiles/plink_pca_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o -MF CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o.d -o CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o -c "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCParallelEngine.cpp"
+
+CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCParallelEngine.cpp" > CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.i
+
+CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCParallelEngine.cpp" -o CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.s
+
 # Object files for target plink_pca_tool
 plink_pca_tool_OBJECTS = \
 "CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o" \
@@ -197,7 +225,9 @@ plink_pca_tool_OBJECTS = \
 "CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o" \
 "CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o" \
 "CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o" \
-"CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o"
+"CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o" \
+"CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o" \
+"CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o"
 
 # External object files for target plink_pca_tool
 plink_pca_tool_EXTERNAL_OBJECTS =
@@ -210,6 +240,8 @@ plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/genome/GenomeDetector.cpp.o
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/data/GenotypeBlock.cpp.o
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o
+plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o
+plink_pca_tool: CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/build.make
 plink_pca_tool: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 plink_pca_tool: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
@@ -217,7 +249,7 @@ plink_pca_tool: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 plink_pca_tool: /usr/lib/x86_64-linux-gnu/libGLX.so
 plink_pca_tool: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 plink_pca_tool: CMakeFiles/plink_pca_tool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable plink_pca_tool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable plink_pca_tool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plink_pca_tool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

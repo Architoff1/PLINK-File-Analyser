@@ -20,6 +20,10 @@
  /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/PlinkLoader.h
  /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.cpp
  /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.h
+ /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCParallelEngine.cpp
+ /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCParallelEngine.h
+ /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCWorker.cpp
+ /home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCWorker.h
  /usr/bin/cmake
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -315,6 +319,7 @@
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h

@@ -413,4 +413,11 @@ CMakeFiles/plink_pca_tool.dir/plink_pca_tool_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
  /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/data/GenotypeBlock.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/build/plink_pca_tool_autogen/MXUWEOXILK/../../../src/gui/../data/GenotypeBlock.h
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/build/plink_pca_tool_autogen/MXUWEOXILK/../../../src/gui/../data/GenotypeBlock.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/build/plink_pca_tool_autogen/JPKH5B2DX2/moc_QCWorker.cpp \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/build/plink_pca_tool_autogen/JPKH5B2DX2/../../../src/qc/QCWorker.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/build/plink_pca_tool_autogen/JPKH5B2DX2/../../../src/qc/../plink/BedReader.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/build/plink_pca_tool_autogen/JPKH5B2DX2/../../../src/qc/../data/GenotypeBlock.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/build/plink_pca_tool_autogen/JPKH5B2DX2/../../../src/qc/QCEngine.h

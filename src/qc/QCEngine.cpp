@@ -38,3 +38,13 @@ QCEngine::QCStats QCEngine::computeBlockStats(const GenotypeBlock& block)
 
     return stats;
 }
+
+
+void QCEngine::accumulateStats(QCStats& total, const QCStats& block)
+{
+    total.totalGenotypes += block.totalGenotypes;
+    total.missingGenotypes += block.missingGenotypes;
+    total.homozygousRef += block.homozygousRef;
+    total.heterozygous += block.heterozygous;
+    total.homozygousAlt += block.homozygousAlt;
+}

@@ -353,6 +353,18 @@
 			"MU",
 			"JPKH5B2DX2/moc_QCEngine.cpp",
 			null
+		],
+		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCParallelEngine.h",
+			"MU",
+			"JPKH5B2DX2/moc_QCParallelEngine.cpp",
+			null
+		],
+		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCWorker.h",
+			"MU",
+			"JPKH5B2DX2/moc_QCWorker.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -446,6 +458,16 @@
 		],
 		[
 			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCParallelEngine.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCWorker.cpp",
 			"MU",
 			null
 		]

@@ -3,6 +3,9 @@
 #include "../genome/GenomeDetector.h"
 #include "../plink/BedReader.h"
 #include "../data/GenotypeBlock.h"
+#include "../qc/QCEngine.h"
+#include "../qc/QCWorker.h"
+#include <QThread>
 
 #include <vector>
 #include <algorithm>
@@ -363,22 +366,103 @@ void MainWindow::loadDataset()
 
     // ---- BED decoding test ----
 
-    logPanel->append("Initializing BED reader...");
+    logPanel->append("Starting QC analysis...");
+    logPanel->append("QC Progress: 0%");
 
-    if (bedReader.open(bedFile.toStdString(), dataset.sampleCount, dataset.snpCount))
+    QThread *thread = new QThread;
+
+    QCWorker *worker = new QCWorker(
+            bedFile.toStdString(),
+            dataset.sampleCount,
+            dataset.snpCount);
+
+    worker->moveToThread(thread);
+
+    connect(thread, &QThread::started,
+            worker, &QCWorker::run);
+
+    connect(worker, &QCWorker::progressUpdated,
+            this, [this](int percent)
     {
-        if (bedReader.readNextBlock(genotypeBlock))
-        {
-            logPanel->append("BED reader initialized.");
-            logPanel->append("First genotype block decoded successfully.");
-        }
-        else
-        {
-            logPanel->append("Failed to decode genotype block.");
-        }
-    }
-    else
+        QTextCursor cursor = logPanel->textCursor();
+
+        cursor.movePosition(QTextCursor::End);
+        cursor.movePosition(QTextCursor::StartOfLine, QTextCursor::KeepAnchor);
+
+        cursor.removeSelectedText();
+        cursor.insertText(QString("QC Progress: %1%").arg(percent));
+
+        logPanel->setTextCursor(cursor);
+    });
+
+    connect(worker, &QCWorker::finished,
+            this, [this](QCEngine::QCStats stats)
     {
-        logPanel->append("Failed to open BED file.");
+        logPanel->append("QC Completed.");
+
+        logPanel->append(QString("Total genotypes: %1").arg(stats.totalGenotypes));
+        logPanel->append(QString("Missing genotypes: %1").arg(stats.missingGenotypes));
+        logPanel->append(QString("Homozygous Ref: %1").arg(stats.homozygousRef));
+        logPanel->append(QString("Heterozygous: %1").arg(stats.heterozygous));
+        logPanel->append(QString("Homozygous Alt: %1").arg(stats.homozygousAlt));
+
+    // ---- Derived QC Metrics ----
+
+    double missingRate = 0.0;
+    double callRate = 0.0;
+
+    if (stats.totalGenotypes > 0)
+    {
+        missingRate =
+            (double)stats.missingGenotypes /
+            (double)stats.totalGenotypes;
+
+        callRate = 1.0 - missingRate;
     }
+
+    long long refAlleles =
+            2LL * stats.homozygousRef +
+            stats.heterozygous;
+
+    long long altAlleles =
+            2LL * stats.homozygousAlt +
+            stats.heterozygous;
+
+    long long totalAlleles =
+            refAlleles + altAlleles;
+
+    long long minorAlleles =
+            std::min(refAlleles, altAlleles);
+
+    double maf = 0.0;
+
+    if (totalAlleles > 0)
+    {
+        maf =
+            (double)minorAlleles /
+            (double)totalAlleles;
+    }
+
+    logPanel->append("QC Metrics");
+
+    logPanel->append(QString("Missing rate: %1")
+            .arg(missingRate * 100.0, 0, 'f', 3) + "%");
+
+    logPanel->append(QString("Call rate: %1")
+            .arg(callRate * 100.0, 0, 'f', 3) + "%");
+
+    logPanel->append(QString("Minor Allele Frequency (MAF): %1")
+            .arg(maf, 0, 'f', 5));
+    });
+
+    connect(worker, &QCWorker::finished,
+            thread, &QThread::quit);
+
+    connect(worker, &QCWorker::finished,
+            worker, &QObject::deleteLater);
+
+    connect(thread, &QThread::finished,
+            thread, &QObject::deleteLater);
+
+    thread->start();
 }

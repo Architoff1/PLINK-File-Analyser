@@ -1,11 +1,11 @@
-CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o: \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.cpp \
+CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o: \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/qc/QCWorker.cpp \
  /usr/include/stdc-predef.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/MainWindow.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/qc/QCWorker.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
  /usr/include/c++/13/type_traits \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -180,17 +180,8 @@ CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/stl_function.h \
@@ -342,140 +333,20 @@ CMakeFiles/plink_pca_tool.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/c++/13/bits/locale_conv.h \
  /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/format \
  /usr/include/c++/13/charconv /usr/include/c++/13/span \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFrame \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../plink/PlinkLoader.h \
- /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
- /usr/include/c++/13/bits/stl_multiset.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../plink/BedReader.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/qc/../plink/BedReader.h \
  /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
  /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/data/GenotypeBlock.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../data/GenotypeBlock.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../genome/GenomeDetector.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../qc/QCEngine.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../qc/../data/GenotypeBlock.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../qc/QCWorker.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
- /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/gui/../qc/../plink/BedReader.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QThread \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qthread.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qdeadlinetimer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qelapsedtimer.h \
- /usr/include/c++/13/future /usr/include/c++/13/mutex \
- /usr/include/c++/13/bits/unique_lock.h \
- /usr/include/c++/13/condition_variable /usr/include/c++/13/stop_token \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/qc/../data/GenotypeBlock.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/qc/QCEngine.h \
+ /home/nikalli/Desktop/WORKSPACE/PLINK\ File\ Analyser/src/qc/QCParallelEngine.h \
+ /usr/include/c++/13/thread /usr/include/c++/13/stop_token \
  /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/semaphore \
  /usr/include/c++/13/bits/semaphore_base.h \
  /usr/include/c++/13/bits/atomic_timed_wait.h \
  /usr/include/c++/13/bits/this_thread_sleep.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
- /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /usr/include/c++/13/bits/atomic_futex.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QFileInfo \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qfileinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qfile.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qfiledevice.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
- /usr/include/c++/13/filesystem /usr/include/c++/13/bits/fs_fwd.h \
- /usr/include/c++/13/bits/fs_path.h /usr/include/c++/13/codecvt \
- /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenubar.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStatusBar \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstatusbar.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTextEdit \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtextedit.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfiledialog.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qdir.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qfileinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h /usr/include/c++/13/mutex \
+ /usr/include/c++/13/bits/unique_lock.h

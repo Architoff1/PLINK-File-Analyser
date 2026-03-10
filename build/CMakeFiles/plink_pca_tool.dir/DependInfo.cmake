@@ -17,6 +17,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/BedReader.cpp" "CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/plink/BedReader.cpp.o.d"
   "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/plink/PlinkLoader.cpp" "CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/plink/PlinkLoader.cpp.o.d"
   "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCEngine.cpp" "CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.o.d"
+  "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCParallelEngine.cpp" "CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o.d"
+  "/home/nikalli/Desktop/WORKSPACE/PLINK File Analyser/src/qc/QCWorker.cpp" "CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o" "gcc" "CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

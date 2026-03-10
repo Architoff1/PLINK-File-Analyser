@@ -347,6 +347,54 @@ src/qc/QCEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCEngine.cpp.s
 .PHONY : src/qc/QCEngine.cpp.s
 
+src/qc/QCParallelEngine.o: src/qc/QCParallelEngine.cpp.o
+.PHONY : src/qc/QCParallelEngine.o
+
+# target to build an object file
+src/qc/QCParallelEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.o
+.PHONY : src/qc/QCParallelEngine.cpp.o
+
+src/qc/QCParallelEngine.i: src/qc/QCParallelEngine.cpp.i
+.PHONY : src/qc/QCParallelEngine.i
+
+# target to preprocess a source file
+src/qc/QCParallelEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.i
+.PHONY : src/qc/QCParallelEngine.cpp.i
+
+src/qc/QCParallelEngine.s: src/qc/QCParallelEngine.cpp.s
+.PHONY : src/qc/QCParallelEngine.s
+
+# target to generate assembly for a file
+src/qc/QCParallelEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCParallelEngine.cpp.s
+.PHONY : src/qc/QCParallelEngine.cpp.s
+
+src/qc/QCWorker.o: src/qc/QCWorker.cpp.o
+.PHONY : src/qc/QCWorker.o
+
+# target to build an object file
+src/qc/QCWorker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.o
+.PHONY : src/qc/QCWorker.cpp.o
+
+src/qc/QCWorker.i: src/qc/QCWorker.cpp.i
+.PHONY : src/qc/QCWorker.i
+
+# target to preprocess a source file
+src/qc/QCWorker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.i
+.PHONY : src/qc/QCWorker.cpp.i
+
+src/qc/QCWorker.s: src/qc/QCWorker.cpp.s
+.PHONY : src/qc/QCWorker.s
+
+# target to generate assembly for a file
+src/qc/QCWorker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plink_pca_tool.dir/build.make CMakeFiles/plink_pca_tool.dir/src/qc/QCWorker.cpp.s
+.PHONY : src/qc/QCWorker.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -382,6 +430,12 @@ help:
 	@echo "... src/qc/QCEngine.o"
 	@echo "... src/qc/QCEngine.i"
 	@echo "... src/qc/QCEngine.s"
+	@echo "... src/qc/QCParallelEngine.o"
+	@echo "... src/qc/QCParallelEngine.i"
+	@echo "... src/qc/QCParallelEngine.s"
+	@echo "... src/qc/QCWorker.o"
+	@echo "... src/qc/QCWorker.i"
+	@echo "... src/qc/QCWorker.s"
 .PHONY : help
 
 
